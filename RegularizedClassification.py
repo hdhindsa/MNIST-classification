@@ -5,7 +5,10 @@ from scipy.special import expit
 
 #####Manually change the size of training dataset in readMNISTdata() to reproduce results
 
-####this is the L2 regularized code
+#### This is the L2 regularized code
+
+# MNIST dataset is available at http://yann.lecun.com/exdb/mnist/
+# after downloading, extract all four files
 def readMNISTdata():
 
     with open('t10k-images.idx3-ubyte','rb') as f:
